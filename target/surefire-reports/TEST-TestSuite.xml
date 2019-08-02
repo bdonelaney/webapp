@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.033" tests="25" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2018.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ashwingajjala/Downloads/webapp"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ashwingajjala/Downloads/webapp"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/bf/239p3hjx7r3fwjndfnd8jys40000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ashwingajjala/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.5"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/ashwingajjala"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ashwingajjala"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.1 install -f pom.xml"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="java.ext.dirs" value="/Users/ashwingajjala/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="contextLoads on contextLoads(com.ey.springboot.web.SpringWebApplicationTests)" classname="com.ey.springboot.web.SpringWebApplicationTests" time="0.024"/>
+  <testcase name="showTodos on showTodos(com.ey.springboot.web.controller.TodoControllerTest)" classname="com.ey.springboot.web.controller.TodoControllerTest" time="0"/>
+  <testcase name="addTodo on addTodo(com.ey.springboot.web.controller.TodoControllerTest)" classname="com.ey.springboot.web.controller.TodoControllerTest" time="0"/>
+  <testcase name="updateTodo on updateTodo(com.ey.springboot.web.controller.TodoControllerTest)" classname="com.ey.springboot.web.controller.TodoControllerTest" time="0"/>
+  <testcase name="initBinder on initBinder(com.ey.springboot.web.controller.TodoControllerTest)" classname="com.ey.springboot.web.controller.TodoControllerTest" time="0.001"/>
+  <testcase name="showAddTodoPage on showAddTodoPage(com.ey.springboot.web.controller.TodoControllerTest)" classname="com.ey.springboot.web.controller.TodoControllerTest" time="0"/>
+  <testcase name="showUpdateTodoPage on showUpdateTodoPage(com.ey.springboot.web.controller.TodoControllerTest)" classname="com.ey.springboot.web.controller.TodoControllerTest" time="0"/>
+  <testcase name="deleteTodo on deleteTodo(com.ey.springboot.web.controller.TodoControllerTest)" classname="com.ey.springboot.web.controller.TodoControllerTest" time="0"/>
+  <testcase name="showWelcomePage on showWelcomePage(com.ey.springboot.web.controller.WelcomeControllerTest)" classname="com.ey.springboot.web.controller.WelcomeControllerTest" time="0"/>
+  <testcase name="handleException on handleException(com.ey.springboot.web.controller.ErrorControllerTest)" classname="com.ey.springboot.web.controller.ErrorControllerTest" time="0.001"/>
+  <testcase name="isDone on isDone(com.ey.springboot.web.model.TodoTest)" classname="com.ey.springboot.web.model.TodoTest" time="0"/>
+  <testcase name="getDesc on getDesc(com.ey.springboot.web.model.TodoTest)" classname="com.ey.springboot.web.model.TodoTest" time="0.003"/>
+  <testcase name="getUser on getUser(com.ey.springboot.web.model.TodoTest)" classname="com.ey.springboot.web.model.TodoTest" time="0"/>
+  <testcase name="getId on getId(com.ey.springboot.web.model.TodoTest)" classname="com.ey.springboot.web.model.TodoTest" time="0"/>
+  <testcase name="setId on setId(com.ey.springboot.web.model.TodoTest)" classname="com.ey.springboot.web.model.TodoTest" time="0.003"/>
+  <testcase name="getTargetDate on getTargetDate(com.ey.springboot.web.model.TodoTest)" classname="com.ey.springboot.web.model.TodoTest" time="0"/>
+  <testcase name="setTargetDate on setTargetDate(com.ey.springboot.web.model.TodoTest)" classname="com.ey.springboot.web.model.TodoTest" time="0"/>
+  <testcase name="setDesc on setDesc(com.ey.springboot.web.model.TodoTest)" classname="com.ey.springboot.web.model.TodoTest" time="0"/>
+  <testcase name="setDone on setDone(com.ey.springboot.web.model.TodoTest)" classname="com.ey.springboot.web.model.TodoTest" time="0"/>
+  <testcase name="setUser on setUser(com.ey.springboot.web.model.TodoTest)" classname="com.ey.springboot.web.model.TodoTest" time="0"/>
+  <testcase name="addTodo on addTodo(com.ey.springboot.web.service.TodoServiceTest)" classname="com.ey.springboot.web.service.TodoServiceTest" time="0"/>
+  <testcase name="updateTodo on updateTodo(com.ey.springboot.web.service.TodoServiceTest)" classname="com.ey.springboot.web.service.TodoServiceTest" time="0.001"/>
+  <testcase name="retrieveTodo on retrieveTodo(com.ey.springboot.web.service.TodoServiceTest)" classname="com.ey.springboot.web.service.TodoServiceTest" time="0"/>
+  <testcase name="retrieveTodos on retrieveTodos(com.ey.springboot.web.service.TodoServiceTest)" classname="com.ey.springboot.web.service.TodoServiceTest" time="0"/>
+  <testcase name="deleteTodo on deleteTodo(com.ey.springboot.web.service.TodoServiceTest)" classname="com.ey.springboot.web.service.TodoServiceTest" time="0"/>
+</testsuite>
