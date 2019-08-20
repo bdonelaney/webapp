@@ -2,118 +2,118 @@
 <testng-results skipped="0" failed="0" total="25" passed="25">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="4577" started-at="2019-08-02T15:24:27Z" finished-at="2019-08-02T15:24:32Z">
+  <suite name="Surefire suite" duration-ms="10127" started-at="2019-08-20T17:41:00Z" finished-at="2019-08-20T17:41:10Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="4577" started-at="2019-08-02T15:24:27Z" finished-at="2019-08-02T15:24:32Z">
+    <test name="Surefire test" duration-ms="10127" started-at="2019-08-20T17:41:00Z" finished-at="2019-08-20T17:41:10Z">
       <class name="com.ey.springboot.web.controller.TodoControllerTest">
-        <test-method status="PASS" signature="showTodos()[pri:0, instance:showTodos(com.ey.springboot.web.controller.TodoControllerTest)]" name="showTodos" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="showTodos()[pri:0, instance:showTodos(com.ey.springboot.web.controller.TodoControllerTest)]" name="showTodos" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showTodos -->
-        <test-method status="PASS" signature="updateTodo()[pri:0, instance:updateTodo(com.ey.springboot.web.controller.TodoControllerTest)]" name="updateTodo" duration-ms="1" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateTodo -->
-        <test-method status="PASS" signature="addTodo()[pri:0, instance:addTodo(com.ey.springboot.web.controller.TodoControllerTest)]" name="addTodo" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="addTodo()[pri:0, instance:addTodo(com.ey.springboot.web.controller.TodoControllerTest)]" name="addTodo" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTodo -->
-        <test-method status="PASS" signature="initBinder()[pri:0, instance:initBinder(com.ey.springboot.web.controller.TodoControllerTest)]" name="initBinder" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="updateTodo()[pri:0, instance:updateTodo(com.ey.springboot.web.controller.TodoControllerTest)]" name="updateTodo" duration-ms="2" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateTodo -->
+        <test-method status="PASS" signature="initBinder()[pri:0, instance:initBinder(com.ey.springboot.web.controller.TodoControllerTest)]" name="initBinder" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBinder -->
-        <test-method status="PASS" signature="showAddTodoPage()[pri:0, instance:showAddTodoPage(com.ey.springboot.web.controller.TodoControllerTest)]" name="showAddTodoPage" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="showAddTodoPage()[pri:0, instance:showAddTodoPage(com.ey.springboot.web.controller.TodoControllerTest)]" name="showAddTodoPage" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showAddTodoPage -->
-        <test-method status="PASS" signature="showUpdateTodoPage()[pri:0, instance:showUpdateTodoPage(com.ey.springboot.web.controller.TodoControllerTest)]" name="showUpdateTodoPage" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="showUpdateTodoPage()[pri:0, instance:showUpdateTodoPage(com.ey.springboot.web.controller.TodoControllerTest)]" name="showUpdateTodoPage" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showUpdateTodoPage -->
-        <test-method status="PASS" signature="deleteTodo()[pri:0, instance:deleteTodo(com.ey.springboot.web.controller.TodoControllerTest)]" name="deleteTodo" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="deleteTodo()[pri:0, instance:deleteTodo(com.ey.springboot.web.controller.TodoControllerTest)]" name="deleteTodo" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteTodo -->
       </class> <!-- com.ey.springboot.web.controller.TodoControllerTest -->
       <class name="com.ey.springboot.web.service.TodoServiceTest">
-        <test-method status="PASS" signature="addTodo()[pri:0, instance:addTodo(com.ey.springboot.web.service.TodoServiceTest)]" name="addTodo" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="addTodo()[pri:0, instance:addTodo(com.ey.springboot.web.service.TodoServiceTest)]" name="addTodo" duration-ms="1" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addTodo -->
-        <test-method status="PASS" signature="updateTodo()[pri:0, instance:updateTodo(com.ey.springboot.web.service.TodoServiceTest)]" name="updateTodo" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="updateTodo()[pri:0, instance:updateTodo(com.ey.springboot.web.service.TodoServiceTest)]" name="updateTodo" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateTodo -->
-        <test-method status="PASS" signature="retrieveTodos()[pri:0, instance:retrieveTodos(com.ey.springboot.web.service.TodoServiceTest)]" name="retrieveTodos" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- retrieveTodos -->
-        <test-method status="PASS" signature="deleteTodo()[pri:0, instance:deleteTodo(com.ey.springboot.web.service.TodoServiceTest)]" name="deleteTodo" duration-ms="1" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteTodo -->
-        <test-method status="PASS" signature="retrieveTodo()[pri:0, instance:retrieveTodo(com.ey.springboot.web.service.TodoServiceTest)]" name="retrieveTodo" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="retrieveTodo()[pri:0, instance:retrieveTodo(com.ey.springboot.web.service.TodoServiceTest)]" name="retrieveTodo" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- retrieveTodo -->
+        <test-method status="PASS" signature="retrieveTodos()[pri:0, instance:retrieveTodos(com.ey.springboot.web.service.TodoServiceTest)]" name="retrieveTodos" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveTodos -->
+        <test-method status="PASS" signature="deleteTodo()[pri:0, instance:deleteTodo(com.ey.springboot.web.service.TodoServiceTest)]" name="deleteTodo" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTodo -->
       </class> <!-- com.ey.springboot.web.service.TodoServiceTest -->
       <class name="com.ey.springboot.web.model.TodoTest">
-        <test-method status="PASS" signature="isDone()[pri:0, instance:isDone(com.ey.springboot.web.model.TodoTest)]" name="isDone" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="isDone()[pri:0, instance:isDone(com.ey.springboot.web.model.TodoTest)]" name="isDone" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isDone -->
-        <test-method status="PASS" signature="getDesc()[pri:0, instance:getDesc(com.ey.springboot.web.model.TodoTest)]" name="getDesc" duration-ms="3" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getDesc -->
-        <test-method status="PASS" signature="getUser()[pri:0, instance:getUser(com.ey.springboot.web.model.TodoTest)]" name="getUser" duration-ms="1" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="getUser()[pri:0, instance:getUser(com.ey.springboot.web.model.TodoTest)]" name="getUser" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getUser -->
-        <test-method status="PASS" signature="getId()[pri:0, instance:getId(com.ey.springboot.web.model.TodoTest)]" name="getId" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="getDesc()[pri:0, instance:getDesc(com.ey.springboot.web.model.TodoTest)]" name="getDesc" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getId -->
-        <test-method status="PASS" signature="setId()[pri:0, instance:setId(com.ey.springboot.web.model.TodoTest)]" name="setId" duration-ms="3" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        </test-method> <!-- getDesc -->
+        <test-method status="PASS" signature="setId()[pri:0, instance:setId(com.ey.springboot.web.model.TodoTest)]" name="setId" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setId -->
-        <test-method status="PASS" signature="getTargetDate()[pri:0, instance:getTargetDate(com.ey.springboot.web.model.TodoTest)]" name="getTargetDate" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="getId()[pri:0, instance:getId(com.ey.springboot.web.model.TodoTest)]" name="getId" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getTargetDate -->
-        <test-method status="PASS" signature="setTargetDate()[pri:0, instance:setTargetDate(com.ey.springboot.web.model.TodoTest)]" name="setTargetDate" duration-ms="1" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        </test-method> <!-- getId -->
+        <test-method status="PASS" signature="setTargetDate()[pri:0, instance:setTargetDate(com.ey.springboot.web.model.TodoTest)]" name="setTargetDate" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTargetDate -->
-        <test-method status="PASS" signature="setDesc()[pri:0, instance:setDesc(com.ey.springboot.web.model.TodoTest)]" name="setDesc" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="getTargetDate()[pri:0, instance:getTargetDate(com.ey.springboot.web.model.TodoTest)]" name="getTargetDate" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTargetDate -->
+        <test-method status="PASS" signature="setDesc()[pri:0, instance:setDesc(com.ey.springboot.web.model.TodoTest)]" name="setDesc" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDesc -->
-        <test-method status="PASS" signature="setDone()[pri:0, instance:setDone(com.ey.springboot.web.model.TodoTest)]" name="setDone" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="setDone()[pri:0, instance:setDone(com.ey.springboot.web.model.TodoTest)]" name="setDone" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDone -->
-        <test-method status="PASS" signature="setUser()[pri:0, instance:setUser(com.ey.springboot.web.model.TodoTest)]" name="setUser" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="setUser()[pri:0, instance:setUser(com.ey.springboot.web.model.TodoTest)]" name="setUser" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUser -->
       </class> <!-- com.ey.springboot.web.model.TodoTest -->
       <class name="com.ey.springboot.web.controller.ErrorControllerTest">
-        <test-method status="PASS" signature="handleException()[pri:0, instance:handleException(com.ey.springboot.web.controller.ErrorControllerTest)]" name="handleException" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="handleException()[pri:0, instance:handleException(com.ey.springboot.web.controller.ErrorControllerTest)]" name="handleException" duration-ms="11" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handleException -->
       </class> <!-- com.ey.springboot.web.controller.ErrorControllerTest -->
       <class name="com.ey.springboot.web.controller.WelcomeControllerTest">
-        <test-method status="PASS" signature="showWelcomePage()[pri:0, instance:showWelcomePage(com.ey.springboot.web.controller.WelcomeControllerTest)]" name="showWelcomePage" duration-ms="0" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="showWelcomePage()[pri:0, instance:showWelcomePage(com.ey.springboot.web.controller.WelcomeControllerTest)]" name="showWelcomePage" duration-ms="0" started-at="2019-08-20T12:41:00Z" finished-at="2019-08-20T12:41:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- showWelcomePage -->
       </class> <!-- com.ey.springboot.web.controller.WelcomeControllerTest -->
       <class name="com.ey.springboot.web.SpringWebApplicationTests">
-        <test-method status="PASS" signature="contextLoads()[pri:0, instance:contextLoads(com.ey.springboot.web.SpringWebApplicationTests)]" name="contextLoads" duration-ms="27" started-at="2019-08-02T10:24:32Z" finished-at="2019-08-02T10:24:32Z">
+        <test-method status="PASS" signature="contextLoads()[pri:0, instance:contextLoads(com.ey.springboot.web.SpringWebApplicationTests)]" name="contextLoads" duration-ms="74" started-at="2019-08-20T12:41:10Z" finished-at="2019-08-20T12:41:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contextLoads -->
