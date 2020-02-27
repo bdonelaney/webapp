@@ -20,12 +20,8 @@ pipeline {
         }
         stage('Docker Build') {
             steps {
-                script { def GIT_TAG = sh(
-                    script: 'git rev-parse --short HEAD',
-                    returnStdout: true
-                ).trim() }
-                sh "sudo docker build . -t etlabvlldvopap2.et.lab:80/docker/${app_name}:${GIT_TAG}"
-                sh "sudo docker push etlabvlldvopap2.et.lab:80/docker/${app_name}:${GIT_TAG}"
+                sh "sudo docker build . -t etlabvlldvopap2.et.lab:80/docker/${app_name}:$(git rev-parse --short HEAD)"
+                sh "sudo docker push etlabvlldvopap2.et.lab:80/docker/${app_name}:$(git rev-parse --short HEAD)"
             }
         }
         stage('Functional Test') {
@@ -39,7 +35,7 @@ pipeline {
         }
         stage('Docker Tag Latest') {
             steps {
-                sh "sudo docker tag etlabvlldvopap2.et.lab:80/docker/${app_name}:${GIT_TAG} etlabvlldvopap2.et.lab:80/docker/${app_name}:latest"
+                sh "sudo docker tag etlabvlldvopap2.et.lab:80/docker/${app_name}:$(git rev-parse --short HEAD) etlabvlldvopap2.et.lab:80/docker/${app_name}:latest"
                 sh "sudo docker push etlabvlldvopap2.et.lab:80/docker/${app_name}:latest"
             }
         }
