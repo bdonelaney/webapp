@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Docker Build') {
             steps {
-                GIT_TAG = sh (
+                def GIT_TAG = sh (
                     script: 'git rev-parse --short HEAD',
                     returnStdout: true
                 ).trim()
