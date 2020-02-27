@@ -1,8 +1,0 @@
-com\ey\springboot\web\security\SecurityConfiguration.class
-com\ey\springboot\web\controller\WelcomeController.class
-com\ey\springboot\web\model\Todo.class
-com\ey\springboot\web\controller\ErrorController.class
-com\ey\springboot\web\controller\LogoutController.class
-com\ey\springboot\web\controller\TodoController.class
-com\ey\springboot\web\service\TodoService.class
-com\ey\springboot\web\SpringWebApplication.class

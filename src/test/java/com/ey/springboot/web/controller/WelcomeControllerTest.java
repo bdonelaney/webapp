@@ -8,5 +8,6 @@ public class WelcomeControllerTest {
 
     @Test
     public void showWelcomePage() {
+//        assertTrue(false);
     }
 }
