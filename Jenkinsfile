@@ -19,11 +19,11 @@ pipeline {
             }
         }
         stage('Docker Build') {
+            def GIT_TAG = sh (
+                                script: 'git rev-parse --short HEAD',
+                                returnStdout: true
+                            ).trim()
             steps {
-                def GIT_TAG = sh (
-                    script: 'git rev-parse --short HEAD',
-                    returnStdout: true
-                ).trim()
                 sh "sudo docker build . -t etlabvlldvopap2.et.lab:80/docker/${app_name}:${GIT_TAG}"
                 sh "sudo docker push etlabvlldvopap2.et.lab:80/docker/${app_name}:${GIT_TAG}"
             }
