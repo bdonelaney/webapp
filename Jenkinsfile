@@ -18,8 +18,8 @@ pipeline {
         }
         stage('Docker Build') {
             steps {
-                sh "sudo docker build . -t etlabvlldvopap2.et.lab:80/docker/arunatest:$(git rev-parse --short HEAD)"
-                sh "sudo docker push etlabvlldvopap2.et.lab:80/docker/arunatest:$(git rev-parse --short HEAD)"
+                sh "sudo docker build . -t etlabvlldvopap2.et.lab:80/docker/arunatest:\$(git rev-parse --short HEAD)"
+                sh "sudo docker push etlabvlldvopap2.et.lab:80/docker/arunatest:\$(git rev-parse --short HEAD)"
             }
         }
         stage('Functional Test') {
@@ -33,7 +33,7 @@ pipeline {
         }
         stage('Docker Tag Latest') {
             steps {
-                sh "sudo docker tag etlabvlldvopap2.et.lab:80/docker/arunatest:$(git rev-parse --short HEAD) etlabvlldvopap2.et.lab:80/docker/${app_name}:latest"
+                sh "sudo docker tag etlabvlldvopap2.et.lab:80/docker/arunatest:\$(git rev-parse --short HEAD) etlabvlldvopap2.et.lab:80/docker/arunatest:latest"
                 sh "sudo docker push etlabvlldvopap2.et.lab:80/docker/arunatest:latest"
             }
         }
