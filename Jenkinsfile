@@ -32,14 +32,13 @@ spec:
     }
     stages {
         stage('JAR Build') {
-            container('maven') {
-                steps {
-                    sh 'mvn clean package'
-                }
-                post {
-                    always {
-                        junit 'target/surefire-reports/*.xml'
-                    }
+            steps {
+                sh 'hostname'
+                sh 'mvn clean package'
+            }
+            post {
+                always {
+                    junit 'target/surefire-reports/*.xml'
                 }
             }
         }
