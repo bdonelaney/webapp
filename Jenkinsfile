@@ -15,6 +15,8 @@ spec:
   containers:
   - name: maven
     image: etlabvlldvopap2.et.lab:80/docker/mavenjnlp:latest
+    env:
+
     command:
     - cat
     tty: true
@@ -30,12 +32,14 @@ spec:
     }
     stages {
         stage('JAR Build') {
-            steps {
-                sh 'mvn clean package'
-            }
-            post {
-                always {
-                    junit 'target/surefire-reports/*.xml'
+            container('maven') {
+                steps {
+                    sh 'mvn clean package'
+                }
+                post {
+                    always {
+                        junit 'target/surefire-reports/*.xml'
+                    }
                 }
             }
         }
