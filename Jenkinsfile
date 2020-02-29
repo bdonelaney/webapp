@@ -31,9 +31,9 @@ pipeline {
             steps {
                 // spin up selenium chrome standalone container in same pod as jnlp-agent, in jnlp-agent clone down
                 // cucumber test suite and execute
-                git url: "https://github.com/bdonelaney/automatedtest.git"
+                git url: "https://github.com/bdonelaney/automation.git"
                 sh "ls -la"
-                sh "ls -la automatedtest/"
+                sh "ls -la automation/"
             }
         }
         stage('Docker Tag Latest') {
