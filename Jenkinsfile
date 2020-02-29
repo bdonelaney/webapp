@@ -5,6 +5,9 @@ pipeline {
             defaultContainer 'jnlp-agent'
         }
     }
+    environment {
+        ARTIFACTORY     = credentials('artifactory')
+    }
     stages {
         stage('JAR Build') {
             steps {
@@ -19,6 +22,7 @@ pipeline {
         }
         stage('Docker Build') {
             steps {
+                sh "docker login etlabvlldvopap2.et.lab:80 -u \$ARTIFACTORY_USR -p \$ARTIFACTORY_PSW"
                 sh "docker build . -t etlabvlldvopap2.et.lab:80/docker/arunatest:\$(git rev-parse --short HEAD)"
                 sh "docker push etlabvlldvopap2.et.lab:80/docker/arunatest:\$(git rev-parse --short HEAD)"
             }
