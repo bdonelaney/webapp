@@ -11,7 +11,6 @@ pipeline {
     stages {
         stage('JAR Build') {
             steps {
-                sh 'hostname'
                 sh 'mvn clean package'
             }
             post {
