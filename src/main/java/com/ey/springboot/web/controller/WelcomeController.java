@@ -10,8 +10,15 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class WelcomeController {
 
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+
+	@RequestMapping(value = "/home", method = RequestMethod.POST)
 	public String showWelcomePage(ModelMap model) {
+		model.put("name", getLoggedinUserName());
+		return "welcome";
+	}
+
+	@RequestMapping(value = "/home", method = RequestMethod.GET)
+	public String showWelcomePageGet(ModelMap model) {
 		model.put("name", getLoggedinUserName());
 		return "welcome";
 	}
