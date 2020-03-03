@@ -22,9 +22,29 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
 	
 	@Override
     protected void configure(HttpSecurity http) throws Exception {
-        http.authorizeRequests().antMatchers("/login").permitAll()
-                .antMatchers("/**").hasRole("USER").and()
+        http.authorizeRequests()
+            .antMatchers("/login").permitAll()
+            .anyRequest().authenticated()
+            .and()
                 .formLogin()
-                .successForwardUrl("/home");
+                .defaultSuccessUrl("/home")
+                .successForwardUrl("/home")
+                .failureUrl("/login?error")
+                .usernameParameter("username")
+                .passwordParameter("password")
+                .loginPage("/login")
+                .permitAll()
+            .and()
+                .logout()
+                .logoutSuccessUrl("/login?logout=true")
+                .invalidateHttpSession(true)
+                .permitAll()
+            .and()
+                .csrf()
+                .disable();
+//                .loginPage("/loginpage")
+//                .defaultSuccessUrl("/home")
+//                .loginProcessingUrl("/login");
+//                .successForwardUrl("/home");
     }
 }
