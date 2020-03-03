@@ -6,8 +6,6 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.web.DefaultRedirectStrategy;
-import org.springframework.security.web.authentication.SimpleUrlAuthenticationSuccessHandler;
 
 @Configuration
 @EnableWebSecurity(debug = true)
@@ -42,9 +40,5 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter{
             .and()
                 .csrf()
                 .disable();
-//                .loginPage("/loginpage")
-//                .defaultSuccessUrl("/home")
-//                .loginProcessingUrl("/login");
-//                .successForwardUrl("/home");
     }
 }
